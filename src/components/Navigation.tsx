@@ -7,6 +7,7 @@ import {
   Youtube,
   Twitter,
 } from "lucide-react";
+import logo from "@/assets/Logo[1].png"
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -42,14 +43,12 @@ const Navigation = () => {
 
   return (
     <>
-      {/* HEADER */}
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled ? "bg-white shadow-md" : "bg-transparent"
-        }`}
+                }`}
       >
         <div className="container mx-auto px-6 py-3 flex items-center justify-between">
-          {/* Left: Social Icons */}
           <div className="flex items-center space-x-4">
             {socialLinks.map(({ icon: Icon, href, label }) => (
               <a
@@ -62,30 +61,19 @@ const Navigation = () => {
                     : "text-white hover:text-primary"
                 }`}
               >
-                <Icon size={24} /> {/* Increased size */}
+                <Icon size={24} /> 
               </a>
             ))}
           </div>
-
-          {/* Center: Logo */}
-          <div className="text-center animate-fadeInDown">
-            <h1
-              className={`font-accent text-3xl sm:text-5xl font-bold tracking-wide transition-colors ${
-                isScrolled ? "text-gray-900" : "text-white"
-              }`}
-            >
-              Dr. Patils
-            </h1>
-            <p
-              className={`text-base sm:text-lg font-normal italic tracking-[0.1em] transition-colors ${
-                isScrolled ? "text-gray-600" : "text-gray-200"
-              }`}
-            >
-              Plastic Surgery
-            </p>
+         <div className="text-center animate-fadeInDown">
+         <img
+           src={logo}
+           alt="Dr. Patils Plastic Surgery"
+           className={`mx-auto h-28 sm:h-25 w-auto transition-all duration-500 transform ${
+           isScrolled ? "scale-110 brightness-100" : "scale-100 brightness-110"
+          }`}
+          />
           </div>
-
-          {/* Right: Menu & CTA */}
           <div className="flex items-center space-x-4">
             <Button
               className={`hidden md:inline-flex transition-colors ${
@@ -112,7 +100,6 @@ const Navigation = () => {
         </div>
       </nav>
 
-      {/* Full Screen Menu Overlay */}
       <div
         className={`fixed inset-0 z-40 bg-background/95 backdrop-blur-lg transition-all duration-500 ${
           isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"

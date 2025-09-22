@@ -2,7 +2,6 @@ import face from '@/assets/beforeafter.jpeg';
 import breast from '@/assets/breast.jpeg';
 import body from '@/assets/body.jpeg';
 
-
 const BlogSection = () => {
   const blogPosts = [
     {
@@ -34,10 +33,10 @@ const BlogSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 fade-in">
-            <h2 className="font-accent text-4xl md:text-5xl font-medium text-primary mb-4">
+            <h2 className="font-prata text-4xl md:text-5xl font-normal text-primary mb-4">
               Latest Insights
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="font-montserrat text-xl text-muted-foreground">
               Stay informed with the latest in plastic surgery and aesthetic medicine
             </p>
           </div>
@@ -58,12 +57,12 @@ const BlogSection = () => {
                 />
 
                 {/* Content */}
-                <div className="p-6 space-y-4">
+                <div className="p-6 space-y-4 font-montserrat">
                   <div className="space-y-2">
-                    <h3 className="font-accent text-xl font-medium text-primary group-hover:text-primary-glow transition-smooth">
+                    <h3 className="font-prata text-xl font-normal text-primary group-hover:text-primary-glow transition-smooth">
                       {post.title}
                     </h3>
-                    <p className="text-muted-foreground leading-relaxed">
+                    <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                       {post.excerpt}
                     </p>
                   </div>

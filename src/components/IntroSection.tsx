@@ -8,34 +8,29 @@ const IntroSection = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           {/* Heading */}
           <div className="space-y-4 fade-in">
-            <h2 className="font-accent text-4xl md:text-5xl font-medium text-primary">
+            <h2 className="font-prata text-4xl md:text-5xl font-normal text-black">
               Plastic Surgery in Chh.Sambhajinagar, Maharashtra
             </h2>
-            <h3 className="text-xl md:text-2xl font-light text-muted-foreground">
+            <h3 className="text-xl md:text-2xl font-light text-black font-montserrat">
               Premier Plastic Surgery & Compassionate Care
             </h3>
           </div>
 
           {/* Description */}
           <div className="slide-up" style={{ animationDelay: '200ms' }}>
-  <p className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed text-foreground font-accent">
-    <span className="font-semibold">Dr. Amit Patil, MBBS, MS, MCh,</span> is a 
-    board-certified plastic and cosmetic surgeon in Aurangabad, India. 
-    Co-Founder of <span className="font-semibold">Dr. Patil’s Plastic Surgery Center</span>, 
-    he is a member of <span className="italic">APSI</span> & <span className="italic">IAAPS</span>. 
-    Trained at premier institutes in <span className="font-medium">Nagpur, Mumbai, and Ahmedabad</span>, 
-    he specializes in aesthetic and reconstructive surgery. 
-    Dr. Patil is dedicated to delivering <span className="font-semibold">natural, functional, and lasting results</span> 
-    with compassionate care.
-  </p>
-</div>
-
+            <p className="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed text-black font-montserrat font-normal">
+              Dr. Amit Patil, MBBS, MS, MCh, is a board-certified plastic and cosmetic surgeon in Aurangabad, India. 
+              Co-Founder of Dr. Patil’s Plastic Surgery Center, he is a member of APSI & IAAPS. 
+              Trained at premier institutes in Nagpur, Mumbai, and Ahmedabad, he specializes in aesthetic and reconstructive surgery. 
+              Dr. Patil is dedicated to delivering natural, functional, and lasting results with compassionate care.
+            </p>
+          </div>
 
           {/* Video Button */}
           <div className="pt-8 slide-up" style={{ animationDelay: '400ms' }}>
             <Button 
               variant="outline" 
-              className="group border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-luxury px-8 py-4 rounded-full"
+              className="group border-black text-black hover:bg-black hover:text-white transition-luxury px-8 py-4 rounded-full"
             >
               <Play className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
               Watch Video
