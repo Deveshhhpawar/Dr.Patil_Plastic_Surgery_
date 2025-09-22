@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import hero1 from "@/assets/sitting.png";
 import hero2 from "@/assets/Doctor explaining[1].png";
 import hero3 from "@/assets/Before after[1].png";
-import hero4 from "@/assets/equipment[1].jpg";
+import hero4 from "@/assets/equipment.jpeg";
 import hero5 from "@/assets/Working[1].png";
 import hero6 from "@/assets/W check[1].png";
 import hero7 from "@/assets/M checking.jpeg";

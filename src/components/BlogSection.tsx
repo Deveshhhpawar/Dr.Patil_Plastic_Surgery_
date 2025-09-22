@@ -1,4 +1,4 @@
-import face from '@/assets/beforeafter.jpg';
+import face from '@/assets/beforeafter.jpeg';
 import breast from '@/assets/breast.jpeg';
 import body from '@/assets/body.jpeg';
 
