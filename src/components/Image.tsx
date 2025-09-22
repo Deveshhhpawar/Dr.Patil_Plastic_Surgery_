@@ -1,5 +1,5 @@
 import React from "react";
-import wideImage from "@/assets/wideimage.jpg";
+import wideImage from "@/assets/wideimage.jpeg";
 
 const Image: React.FC = () => {
   return (

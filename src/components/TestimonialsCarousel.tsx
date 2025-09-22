@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import background from "@/assets/OurClient.jpg";
+import background from "@/assets/ourclient.jpeg";
 
 const clients = [
   "Cartier",
