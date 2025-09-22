@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import doctorMale from "@/assets/Sir.jpg";
+import doctorMale from "@/assets/sir.jpg";
 import doctorFemale from "@/assets/mam.jpg";
 
 const DoctorsSection = () => {
