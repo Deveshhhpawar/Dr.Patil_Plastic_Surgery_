@@ -6,7 +6,7 @@ import hero3 from "@/assets/Before after[1].png";
 import hero4 from "@/assets/equipment[1].jpg";
 import hero5 from "@/assets/Working[1].png";
 import hero6 from "@/assets/W check[1].png";
-import hero7 from "@/assets/M checking[2].jpg";
+import hero7 from "@/assets/M checking[2].jpeg";
 
 const slides = [
   { image: hero1, quote: "Redefining Confidence Through Artful Surgery" },

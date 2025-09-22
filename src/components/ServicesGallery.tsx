@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import breast from "@/assets/breast.jpeg";
 import body from "@/assets/body.jpeg";
-import face from "@/assets/beforeafter.jpeg";
+import face from "@/assets/beforeafter.jpg";
 import medspa from "@/assets/plastic[1].jpg";
-import surgery from "@/assets/Skin.jpg";
+import surgery from "@/assets/Skin.jpeg";
 
 interface Service {
   title: string;
