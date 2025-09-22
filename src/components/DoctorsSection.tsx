@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import doctorMale from "@/assets/Sir[1].jpg";
-import doctorFemale from "@/assets/Mam[2].jpg";
+import doctorMale from "@/assets/Sir.jpg";
+import doctorFemale from "@/assets/mam.jpg";
 
 const DoctorsSection = () => {
   const [step, setStep] = useState<"idle" | "images" | "text">("idle");
